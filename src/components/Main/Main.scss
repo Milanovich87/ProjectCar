@@ -1,0 +1,124 @@
+.main{
+    // padding: 20px 20px;
+    // display: flex;
+    flex-wrap: wrap;
+    background-color: #767676;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    .main__content{
+        // margin: 0 auto;
+        // text-align: start;
+        // padding-left: 50px;
+            max-width: 1190px;
+        position: absolute;
+            left: 100px;
+            top: 120px;
+            z-index: 100;
+            color: #CECBC4;
+            text-align: left;
+            // width: 100%;
+        .firstname,.lastname{
+            font-weight: bolder;
+            font-size: 60px;
+            color: #382C24;
+            font-family: Book Antiqua;
+        }
+        .instagram{
+            color: #382C24;
+            font-size: 18px;
+            text-decoration: none;
+            background-color: transparent;
+            &:hover{
+                border-bottom: 1px solid #382C24;
+            }
+        }
+        .text{
+            margin-top: 100px;
+                // margin-left: 30px;
+                color: #382C24;
+                font-size: 24px;
+        }
+    }
+}
+
+.user__image{
+    width: 100%;
+    position: relative;
+}
+
+// @media(max-width: 1150px) {
+//     .user__image {
+//             max-width: 400px;
+    
+//         }
+// }
+
+// @media(max-width: 1055px) {
+//     .user__image {
+//         max-width: 350px;
+
+//     }
+// }
+
+// @media(max-width: 1005px) {
+//     .user__image {
+//         max-width: 100%;
+
+//     }
+// }
+
+
+.main__title{
+color: #5A5C44;
+font-size: 20px;
+}
+
+@media(max-width: 991px) {
+    .main {
+        .main__content {
+            text-align: start;
+            top: 100px;
+            left: 20px;
+            padding-left: 10px;
+        }
+    }
+}
+
+.main__content, .main__image {
+    display: block;
+}
+.main__mobile{
+    display: none;
+}
+
+@media(max-width: 480px) {
+    .main{
+        padding: 40px 0 0 0;
+        .main__content {
+            padding: 0 0 10px 0;
+                text-align: start;
+                top: 95px;
+                left: 10px;
+                h1{
+                    font-size: 24px;
+                }
+                h2{
+                    font-size: 20px;
+                }
+                            
+                // p{
+                //     display: none
+                // }
+            }
+    }
+        .main__mobile {
+            display: block;
+        }
+    
+        .main__content,
+        .main__image {
+            display: none;
+    }
+}
+

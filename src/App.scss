@@ -1,0 +1,42 @@
+// @import "./components/styles/variables";
+// @import "./components/styles/fonts";
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+.content{
+    min-height: calc(100vh - 160px);
+    padding-top: 50px;
+    background-color: #CECBC4;
+}
+.App {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #767676;
+        // height: 100vh
+}
+
+.port{
+        background-color: #CECBC4;
+    .port__title{
+        font-weight: bolder;
+            font-size: 50px;
+            color: #382C24;
+            font-family: Book Antiqua;
+    }
+        .styling__email {
+            text-align: center;
+            font-size: 24px;
+            color: #382C24;
+            font-family: Calibri;
+            margin-bottom: 20px;
+            a{
+                text-decoration: none;
+            }
+        }
+}
+        

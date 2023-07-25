@@ -1,0 +1,29 @@
+.description{
+    max-width: 1190px;
+    margin: 20px auto;
+    text-align: left;
+    background: #767676;
+    color: #fff;
+    .desc__mobile{
+        display: none;
+    }
+    span{
+        color: #d6d247;
+        font-weight: bold;
+    }
+}
+@media(max-width: 991px) {
+    .description {
+        margin: 20px;
+    }
+}
+
+@media(max-width: 480px) {
+    .description{
+        margin: 10px;
+        .desc__mobile {
+                display: block;
+            }
+    }
+}
+
