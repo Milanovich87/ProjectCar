@@ -30,7 +30,6 @@ export const Main = () => {
                 <Card className="md-ligh text-white">
                     <Card.Img src={serv4} alt="Card image" />
                     <Card.ImgOverlay>
-                        <Card.Title></Card.Title>
                         <Card.Text>
                             <h2>ПОДБОР АВТОМОБИЛЕЙ РБ, США, ЕВРОПА!</h2>
                             <div className='usa__card'>
