@@ -93,8 +93,11 @@ font-size: 20px;
 }
 
 @media(max-width: 480px) {
-    .card-img-overlay .card-title{
-        font-size: 30px;
+    // .card-img-overlay .card-title{
+    //     font-size: 30px;
+    // }
+    h2{
+        font-size: 28px;
     }
     .main{
         padding: 40px 0 0 0;
