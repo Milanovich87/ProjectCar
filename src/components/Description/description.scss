@@ -4,6 +4,7 @@
     text-align: left;
     background: #767676;
     color: #fff;
+    padding-left: 10px;
     .desc__mobile{
         display: none;
     }
@@ -18,12 +19,22 @@
     }
 }
 
-@media(max-width: 480px) {
-    .description{
-        margin: 10px;
-        .desc__mobile {
+@media(max-width: 670px) {
+    .description {
+            margin: 10px;
+    
+            .desc__mobile {
                 display: block;
             }
-    }
+        }
 }
+
+// @media(max-width: 480px) {
+//     .description{
+//         margin: 10px;
+//         .desc__mobile {
+//                 display: block;
+//             }
+//     }
+// }
 

@@ -6,21 +6,24 @@ import main from '../../assets/main.jpg';
 // @ts-ignore-start
 import serv1 from "../../assets/passat.jpeg";
 // @ts-ignore-end
-import Dropdown from 'react-bootstrap/Dropdown';
-import NavItem from 'react-bootstrap/NavItem';
-import NavLink from 'react-bootstrap/NavLink';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import ScrollToTop from '../scroll111';
+
 
 export const RB = ({ name, ...props }: any) => {
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const [show1, setShow1] = useState(false);
+    const handleClose1 = () => setShow1(false);
+    const handleShow1 = () => setShow1(true);
+
+    const [show2, setShow2] = useState(false);
+    const handleClose2 = () => setShow2(false);
+    const handleShow2 = () => setShow2(true);
     return (
         <div className="rb" >
             <div className="rb__content">
@@ -156,10 +159,10 @@ export const RB = ({ name, ...props }: any) => {
                             </Offcanvas>
                         </>
                         <>
-                            <Button variant="outline-warning" onClick={handleShow}>
+                            <Button variant="outline-warning" onClick={handleShow1}>
                                 Эксперт на день 500 бел.руб.
                             </Button>
-                            <Offcanvas show={show} onHide={handleClose}>
+                            <Offcanvas show={show1} onHide={handleClose1}>
                                 <Offcanvas.Header closeButton>
                                     <Offcanvas.Title>Эксперт на день 500 бел.руб.</Offcanvas.Title>
                                 </Offcanvas.Header>
@@ -179,10 +182,10 @@ export const RB = ({ name, ...props }: any) => {
                             </Offcanvas>
                         </>
                         <>
-                            <Button variant="outline-warning" onClick={handleShow}>
+                            <Button variant="outline-warning" onClick={handleShow2}>
                                 Подбор под ключ 1000 бел.руб.
                             </Button>
-                            <Offcanvas show={show} onHide={handleClose}>
+                            <Offcanvas show={show2} onHide={handleClose2}>
                                 <Offcanvas.Header closeButton>
                                     <Offcanvas.Title>Подбор под ключ 1000 бел.руб.</Offcanvas.Title>
                                 </Offcanvas.Header>

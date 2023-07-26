@@ -18,12 +18,9 @@
             color: #CECBC4;
             text-align: left;
             // width: 100%;
-        .firstname,.lastname{
-            font-weight: bolder;
-            font-size: 60px;
-            color: #382C24;
-            font-family: Book Antiqua;
-        }
+            h1, h2{
+                color: #e0af3d;
+            }
         .instagram{
             color: #382C24;
             font-size: 18px;
@@ -90,6 +87,15 @@ font-size: 20px;
 }
 .main__mobile{
     display: none;
+}
+
+
+@media(max-width: 670px) {
+    .main__content{
+        p{
+            display: none;
+        }
+    }
 }
 
 @media(max-width: 480px) {
