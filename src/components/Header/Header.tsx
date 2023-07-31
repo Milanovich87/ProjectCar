@@ -29,11 +29,11 @@ function CollapsibleExample() {
                         <div className='navigate'>
                             <div className='contact'>
                                 <div className='phone__number'>
-                                    <p className='working__hours'>Работаем без выходных: <span>7/24</span></p>
+                                    <p className='working__hours'>Работаем без выходных: <span>24/7</span></p>
                                     <a href="tel:+375296750990">+375296750990</a>
                                 </div>
                                 <div className='social'>
-                                    <a href="https://www.instagram.com/avtovybor_minsk/"><svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 32 32" fill="none">
+                                    <a href="https://www.instagram.com/autovybor.by/"><svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 32 32" fill="none">
                                         <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint0_radial_87_7153)" />
                                         <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint1_radial_87_7153)" />
                                         <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint2_radial_87_7153)" />

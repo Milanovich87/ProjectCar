@@ -24,7 +24,7 @@ export const Services = () => {
                 <Card className="md-light text-white">
                     <Card.Img src={serv1} alt="Card image" />
                     <Card.ImgOverlay>
-                        <Card.Title>ПОДБОР АВТОМОБИЛЕЙ РБ</Card.Title>
+                        <Card.Title>ПОДБОР АВТОМОБИЛЕЙ В РБ</Card.Title>
                         <NavLink onClick={ScrollToTop} className='btn btn-outline-warning' to='/rb' >Подробнее</NavLink>
                     </Card.ImgOverlay>
                 </Card>

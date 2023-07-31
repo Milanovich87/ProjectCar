@@ -28,7 +28,7 @@ export const RB = ({ name, ...props }: any) => {
         <div className="rb" >
             <div className="rb__content">
                 <div className="rb__content1">
-                    <h2>ПОДБОР АВТОМОБИЛЕЙ РБ</h2>
+                    <h2>ПОДБОР АВТОМОБИЛЕЙ В РБ</h2>
                     <div className='rb__cards'>
                         <div className='rb__card'>
                             <h3>Разовый осмотр 100 бел.руб.</h3>
@@ -82,7 +82,7 @@ export const RB = ({ name, ...props }: any) => {
                 <Card className="md-ligh text-white">
                     <Card.Img src={serv1} alt="Card image" />
                     <Card.ImgOverlay>
-                        <Card.Title>ПОДБОР АВТОМОБИЛЕЙ РБ</Card.Title>
+                        <Card.Title>ПОДБОР АВТОМОБИЛЕЙ В РБ</Card.Title>
                         <Card.Text>
                             <div className='rb__cards'>
                                 <div className='rb__card'>
@@ -136,7 +136,7 @@ export const RB = ({ name, ...props }: any) => {
                 <Card className="md-ligh text-white">
                     <Card.Img src={serv1} alt="Card image" />
                     <Card.ImgOverlay>
-                        <Card.Title>ПОДБОР АВТОМОБИЛЕЙ РБ</Card.Title>
+                        <Card.Title>ПОДБОР АВТОМОБИЛЕЙ В РБ</Card.Title>
                         <>
                             <Button variant="outline-warning" onClick={handleShow}>
                                 Разовый осмотр 100 бел.руб.
